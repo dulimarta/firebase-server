@@ -13,7 +13,7 @@ var RuleDataSnapshot = require('targaryen/lib/rule-data-snapshot');
 var firebaseHash = require('./lib/firebaseHash');
 var TestableClock = require('./lib/testable-clock');
 var TokenValidator = require('./lib/token-validator');
-var Promise = require('any-promise');
+var Promise = require('promise');
 var firebase = require('firebase');
 var _log = require('debug')('firebase-server');
 
